@@ -1,0 +1,45 @@
+
+.p1{
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    font-size: 40px;
+    outline: darkblue;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.centre {
+    width: 50%;
+    display: block;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .centre.clicked {
+    animation: jumpAnimation 0.6s ease-in-out;
+  }
+  
+  @keyframes jumpAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(-20px);
+    }
+  }
+
+  
+
+  
